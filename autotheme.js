@@ -2,7 +2,7 @@
     var head = document.head || document.getElementsByTagName('head')[0],
         firstLink = document.getElementsByTagName('link')[0],
         userAgent = window.navigator.userAgent,
-        cssPath = "../../resources/css/",
+        cssPath = "css/",
         isBB = userAgent.search(/blackberry/i) !== -1,
         link = document.createElement('link');
 
